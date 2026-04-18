@@ -40,5 +40,4 @@ async function logout() {
     console.error('Error signing out', error);
   }
 }
-
 export {auth, setAuthListeners, signIn, logout};
